@@ -86,12 +86,12 @@ class App extends Component {
           {
                key: "Address",
                text: "Address",
-               cell: (row, index) => row[3].toString().substring(0, 4) + '...' + row[3].toString().substr(row[3].length - 4)
+               cell: (row, index) => row[3].toString().substring(0, 4) + '....' + row[3].toString().substr(row[3].length - 4)
           },
           {
                key: "Private Key",
                text: "Private Key",
-               cell: (row, index) => row[4].toString().substring(0, 4) + '...' + row[4].toString().substr(row[4].length - 4)
+               cell: (row, index) => row[4].toString().substring(0, 4) + '....' + row[4].toString().substr(row[4].length - 4)
           },
           {
                key: "Time",
